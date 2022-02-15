@@ -18,5 +18,4 @@ spec:
                 secretKeyRef:
                   name: mysql-secret
                   key: MYSQL_PASSWORD
-    imagePullSecrets:
-      - name: regcred             
+                
