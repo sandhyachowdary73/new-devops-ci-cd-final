@@ -4,6 +4,5 @@ spec:
   type: NodePort
   ports:
     - port: 7070
-      nodePort: 
-  imagePullSecrets:
-  - name: regcred
+      nodePort: 31371
+  
